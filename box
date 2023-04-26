@@ -1,0 +1,14 @@
+public class Box {
+    public static void main(String[] args) {
+
+        //Box box1 = new Box(w: 25, h: 40, l: 18);
+       // System.out.println(box1.width + " " + box1.height + " " + box1.length + " ");
+
+                public Box(int w, int h, int d) {
+                    this.w = w;
+                    this.h = h;
+                    this.d = d;
+
+                    System.out.println("Volume = " + (this.w * this.h * this.d));
+                }
+}
